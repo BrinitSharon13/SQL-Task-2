@@ -1,0 +1,38 @@
+INSERT INTO Emp (Name, Age, DName, Sal)
+VALUES ('Alice', 28, 'HR', 35000);
+
+INSERT INTO Emp (Name, Age, DName,Sal)
+VALUES ('Bob', NULL, 'IT', 12000); 
+
+INSERT INTO Emp (Name, Age, DName,Sal)
+VALUES ('Scott', 25, 'Accounts', 15000);
+
+
+INSERT INTO Emp (Name, Age, DName,Sal)
+VALUES ('King', 26 , 'Developer', 18000);
+
+INSERT INTO Emp (Name, Age, DName,Sal)
+VALUES ('James', 29, 'UI', 45000);
+
+
+SELECT * FROM EMP;
+
+
+DELETE FROM EMP WHERE ID = 5;
+
+
+UPDATE Emp
+SET Sal = 50000
+where Name = 'Alice';
+
+
+select * from emp;
+
+
+update emp
+set age = 30
+where name = 'Bob';
+
+
+select * from emp;
+
